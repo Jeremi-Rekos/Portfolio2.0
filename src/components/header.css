@@ -1,0 +1,44 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  padding: 20px;
+  text-align: center;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+}
+.head .logo {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.logo h1 {
+  font-size: 35px;
+  margin-top: -10px;
+  color: rgba(92, 193, 216);
+}
+.logoTyp {
+  height: 30px;
+}
+.head ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.head li {
+  display: inline;
+  margin: 0 50px;
+  font-size: 18px;
+}
+
+.head a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.head a:hover {
+  color: #007bff;
+}
